@@ -9,7 +9,7 @@ class Food {
     return this.element.offsetLeft
   }
   get y(){
-    return this.element.offsetHeight
+    return this.element.offsetTop
   }
   // 改变事物位置
   change(){

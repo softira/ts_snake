@@ -20,7 +20,6 @@ class Scorecard {
   }
   levelUp() {
     if (this.level < this.maxLevel) {
-      console.log(1);
       this.levelEle.innerHTML = ++this.level + ''
     }
   }
